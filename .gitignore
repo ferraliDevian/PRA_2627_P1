@@ -1,0 +1,65 @@
+# Ficheros de dependencias
+*.d
+
+# Objetos compilados
+*.o
+*.obj
+*.lo
+*.slo
+
+# Cabeceras precompiladas
+*.gch
+*.pch
+
+# Ejecutables
+*.exe
+*.out
+*.app
+
+# Bibliotecas dinámicas
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Bibliotecas estáticas
+*.a
+*.la
+*.lib
+*.lai
+
+# Información de depuración
+*.pdb
+*.dwo
+*.ilk
+
+# Módulos Fortran
+*.mod
+*.smod
+
+# Directorios de compilación
+build/
+Build/
+build-*/
+bin/
+
+# Ficheros generados por CMake (el Makefile propio de la práctica sí se versiona)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# Temporales y copias
+*.tmp
+*.log
+*.bak
+*.swp
+
+# Salidas de pruebas y cachés
+Testing/
+.cache/
+vcpkg_installed/
+
+# macOS
+.DS_Store
